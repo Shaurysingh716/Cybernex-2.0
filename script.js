@@ -1,6 +1,6 @@
-function displayText() {
-    document.getElementById("textContainer").style.display = "block";
-    setTimeout(function(){
-        document.getElementById("textContainer").style.display = "none";
-    }, 3000);
-}
+// function toggleTextVisibility(element) {
+//     element.style.display = "block";
+//     setTimeout(function () {
+//         element.style.display = "none";
+//     }, 5000);
+// }

@@ -300,7 +300,8 @@ body {
 .logo-text {
     text-align: center;
     display: none;
-	opacity: 10;
+	opacity: 1;
+	z-index: 10;
 }
 
 .animated-text {

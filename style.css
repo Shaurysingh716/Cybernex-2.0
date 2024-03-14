@@ -300,6 +300,7 @@ body {
 .logo-text {
     text-align: center;
     display: none;
+	opacity: 10;
 }
 
 .animated-text {

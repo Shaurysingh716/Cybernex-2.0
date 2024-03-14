@@ -1,56 +1,3 @@
-    /* Add your CSS styling here
-    body {
-        font-family: 'Arial', sans-serif;
-        background-color: #f4f4f4;
-        margin: 0;
-        padding: 0;
-    }
-
-    header {
-        background-color: #333;
-        color: #fff;
-        padding: 10px 0;
-        text-align: center;
-    }
-
-    nav ul {
-        list-style-type: none;
-        padding: 0;
-    }
-
-    nav ul li {
-        display: inline;
-        margin-right: 10px;
-    }
-
-    nav ul li a {
-        text-decoration: none;
-        color: #333;
-    }
-
-    section {
-        margin: 20px;
-        padding: 20px;
-        background-color: #fff;
-        border-radius: 8px;
-    }
-
-    .hidden {
-        display: none;
-    }
-
-    footer {
-        background-color: #333;
-        color: #fff;
-        text-align: center;
-        padding: 10px 0;
-        position: absolute;
-        bottom: 0;
-        width: 100%;
-    } */
-
-/* Color scheme inspired by the national flag of The Republic of the Congo. */
-
 *,
 *::before,
 *::after {
@@ -103,7 +50,7 @@ body {
 .nav-toggle::after {
 	position: absolute;
 	top: -40px;
-	content: "Click me!";
+	content: "CyberWarriorsClub";
 	color: white;
 	line-height: 0;
 	margin: 0;
@@ -197,15 +144,15 @@ body {
 }
 
 .nav-toggle > figure:nth-child(2) {
-	background: red;
+	background: linear-gradient(to right bottom, #5c249b, #5f27a3, #632aaa, #662eb2, #6931ba, #6531b1, #6131a8, #5d319f, #512d84, #45296a, #392551, #2c2039) !important;;
 }
 
 .nav-toggle > figure:nth-child(3) {
-	background: yellow;
+	background: linear-gradient(to right bottom, #5c249b, #5f27a3, #632aaa, #662eb2, #6931ba, #6531b1, #6131a8, #5d319f, #512d84, #45296a, #392551, #2c2039) !important;;
 }
 
 .nav-toggle > figure:nth-child(4) {
-	background: mediumspringgreen;
+	background: linear-gradient(to right bottom, #5c249b, #5f27a3, #632aaa, #662eb2, #6931ba, #6531b1, #6131a8, #5d319f, #512d84, #45296a, #392551, #2c2039) !important;;
 }
 
 .nav-toggle > label,
@@ -221,87 +168,16 @@ body {
 #nav-toggle:checked ~ .nav-close > label:hover {
 	cursor: pointer;
 }
-/* 
-.logo-draw {
-	position: absolute;
-	display: none;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
-	width: 60%;
-	height: auto;
-	z-index: 2;
-}
-
-.logo-draw > svg {
-	width: 100%;
-	height: auto;
-}
-
-.logo-draw > svg:nth-child(2) {
-	position: absolute;
-}
-
-.logo-draw > svg:nth-child(2) > * {
-	opacity: 0;
-	animation: fade-in 2.5s ease-in-out 1;
-	animation-fill-mode: forwards;
-}
-
-.cls-1 {
-	fill: none;
-	stroke: black;
-	stroke-width: 1px;
-	stroke-dasharray: 1;
-	stroke-dashoffset: 1;
-}
-
-#nav-toggle:checked ~ .logo-draw {
-	display: flex;
-}
-
-#nav-toggle:checked ~ .logo-draw .cls-1 {
-	animation: dash 4s ease-in-out 1;
-	animation-delay: 1.3s;
-	animation-fill-mode: forwards;
-}
-
-#nav-toggle:checked ~ .logo-draw > svg:nth-child(2) > * {
-	animation: fade-in 2.5s ease-in-out 1;
-	animation-delay: 1.3s;
-	animation-fill-mode: forwards;
-}
-
-.cls-2 {
-	fill: black;
-}
-
-@keyframes dash {
-	0% {
-		stroke-dashoffset: 1;
-	}
-	100% {
-		stroke-dashoffset: 0;
-	}
-}
-
-@keyframes fade-in {
-	0% {
-		opacity: 0;
-	}
-	70% {
-		opacity: 0;
-	}
-	100% {
-		opacity: 1;
-	}
-} */
 
 .logo-text {
     text-align: center;
     display: none;
 	opacity: 1;
 	z-index: 10;
+}
+
+.logo-text>.animated-text{
+	font-size: 100px;
 }
 
 .animated-text {
@@ -324,21 +200,7 @@ nav {
 	bottom: 100%;
 	width: 100%;
 	height: 100%;
-	background: linear-gradient(
-		120deg,
-		#ff0000,
-		#f84600,
-		#ee6600,
-		#e27f00,
-		#d49400,
-		#c4a700,
-		#b3b700,
-		#a0c700,
-		#8bd528,
-		#72e251,
-		#51ef76,
-		#00fa9a
-	);
+	background: linear-gradient(to right bottom, #5c249b, #5f27a3, #632aaa, #662eb2, #6931ba, #6531b1, #6131a8, #5d319f, #512d84, #45296a, #392551, #2c2039) !important;
 	z-index: 3;
 }
 
@@ -424,7 +286,7 @@ nav > ul > li::after {
 	width: 100%;
 	z-index: -1;
 	content: "";
-	background: yellow;
+	background: white;
 	transition: all 0.4s cubic-bezier(0.215, 0.61, 0.355, 1) 0s;
 }
 
@@ -450,35 +312,35 @@ nav > ul > li:nth-child(1) {
 	transition: all 0.8s cubic-bezier(0.215, 0.61, 0.355, 1) 0s !important;
 	transition-delay: 4s !important;
 	left: 0;
-	background: #ff0000;
+	background: #a113f3;
 }
 
 nav > ul > li:nth-child(2) {
 	transition: all 0.8s cubic-bezier(0.215, 0.61, 0.355, 1) 0s !important;
 	transition-delay: 4.3s !important;
 	left: 20%;
-	background: #e27f00;
+	background: #6509a2;
 }
 
 nav > ul > li:nth-child(3) {
 	transition: all 0.8s cubic-bezier(0.215, 0.61, 0.355, 1) 0s !important;
 	transition-delay: 4.6s !important;
 	left: 40%;
-	background: #c4a700;
+	background: #460770;
 }
 
 nav > ul > li:nth-child(4) {
 	transition: all 0.8s cubic-bezier(0.215, 0.61, 0.355, 1) 0s !important;
 	transition-delay: 4.9s !important;
 	left: 60%;
-	background: #8bd528;
+	background: #29074c;
 }
 
 nav > ul > li:nth-child(5) {
 	transition: all 0.8s cubic-bezier(0.215, 0.61, 0.355, 1) 0s !important;
 	transition-delay: 5.2s !important;
 	left: 80%;
-	background: #00fa9a;
+	background: #130123;
 }
 
 /* --- Responsivity --- */

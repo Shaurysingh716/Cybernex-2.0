@@ -25,7 +25,9 @@ body {
 	width: 100vw;
 	height: 100vh;
 	overflow: hidden;
-	background: black;
+	background-image: url('src/background.jpg');
+	background-position: center center;
+	background-size: cover;
 	margin: 0;
 }
 
@@ -46,16 +48,28 @@ body {
 	z-index: 1;
 	transition: all 0.2s ease-in-out;
 }
-
+/* 
 .nav-toggle::after {
 	position: absolute;
-	top: -40px;
-	content: "CyberWarriorsClub";
-	color: white;
-	line-height: 0;
+	top: 140px;
+	/* content: "ClickHeretoscanyour"; */
+	/* color: rgb(255, 255, 255); */
+	/* line-height: 0;
 	margin: 0;
 	font-size: 12pt;
 	pointer-events: none !important;
+} */
+
+.title-click{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	line-height: 1pt;
+}
+.title-click p{
+	position: relative;
+	top: 140px;
 }
 
 .nav-toggle:active {
@@ -144,15 +158,15 @@ body {
 }
 
 .nav-toggle > figure:nth-child(2) {
-	background: linear-gradient(to right bottom, #5c249b, #5f27a3, #632aaa, #662eb2, #6931ba, #6531b1, #6131a8, #5d319f, #512d84, #45296a, #392551, #2c2039) !important;;
+	/* background: linear-gradient(to right bottom, #5c249b, #5f27a3, #632aaa, #662eb2, #6931ba, #6531b1, #6131a8, #5d319f, #512d84, #45296a, #392551, #2c2039) !important;; */
 }
 
 .nav-toggle > figure:nth-child(3) {
-	background: linear-gradient(to right bottom, #5c249b, #5f27a3, #632aaa, #662eb2, #6931ba, #6531b1, #6131a8, #5d319f, #512d84, #45296a, #392551, #2c2039) !important;;
+	/* background: linear-gradient(to right bottom, #5c249b, #5f27a3, #632aaa, #662eb2, #6931ba, #6531b1, #6131a8, #5d319f, #512d84, #45296a, #392551, #2c2039) !important;; */
 }
 
 .nav-toggle > figure:nth-child(4) {
-	background: linear-gradient(to right bottom, #5c249b, #5f27a3, #632aaa, #662eb2, #6931ba, #6531b1, #6131a8, #5d319f, #512d84, #45296a, #392551, #2c2039) !important;;
+	/* background: linear-gradient(to right bottom, #5c249b, #5f27a3, #632aaa, #662eb2, #6931ba, #6531b1, #6131a8, #5d319f, #512d84, #45296a, #392551, #2c2039) !important;; */
 }
 
 .nav-toggle > label,
